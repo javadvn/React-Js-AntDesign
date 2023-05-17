@@ -1,14 +1,15 @@
 import ReactDOM from 'react-dom/client';
 
 import { BrowserRouter } from 'react-router-dom';
-import AppOrders from './AppOrders';
+import App2 from './App2';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
         <BrowserRouter>
-            <AppOrders/>
+            <App2/>
         </BrowserRouter>
 
 
